@@ -1,0 +1,10 @@
+c:\users\vincenzo\documents\visual studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\bin\Debug\CPP Online Compiler Monitor.exe.config
+c:\users\vincenzo\documents\visual studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\bin\Debug\CPP Online Compiler Monitor.exe
+c:\users\vincenzo\documents\visual studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\bin\Debug\CPP Online Compiler Monitor.pdb
+c:\users\vincenzo\documents\visual studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Debug\CPP_Online_Compiler_Monitor.Properties.Resources.resources
+c:\users\vincenzo\documents\visual studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Debug\CPP Online Compiler Monitor.csproj.GenerateResource.Cache
+c:\users\vincenzo\documents\visual studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Debug\CPP Online Compiler Monitor.exe
+c:\users\vincenzo\documents\visual studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Debug\CPP Online Compiler Monitor.pdb
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Debug\CPP_Online_Compiler_Monitor.MainForm.resources
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\bin\Debug\CPP Online Compiler Monitor.XML
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Debug\CPP Online Compiler Monitor.csprojResolveAssemblyReference.cache

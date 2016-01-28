@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Documentation.shfbproj" started="27/01/2016 22.33.27">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Framework reflection data location: C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2015.10.10.0
+Copyright &#169; 2006-2015, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\DLL For Documentation\bin\Debug\DLL For Documentation.XML
+Source: C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\DLL For Documentation\bin\Debug\DLL For Documentation.dll
+    Found assembly &#39;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\DLL For Documentation\bin\Debug\DLL For Documentation.dll&#39;
+
+Copying XML comments files
+    C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\DLL For Documentation\bin\Debug\DLL For Documentation.XML -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\DLL For Documentation.XML
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Inglese (Stati Uniti))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,1716
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0015
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
+Compilazione avviata 27/01/2016 22.33.40.
+La destinazione &quot;BeforeGenerateProjectPriFile&quot; elencata in un attributo BeforeTargets in &quot;C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)&quot; non esiste nel progetto e verr… ignorata.
+Progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\GenerateRefInfo.proj&quot; sul nodo 1 (destinazioni predefinite).
+PrepareForBuild:
+  Creazione directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2015.10.10.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 6 types, and 30 members
+  Copia del file da &quot;reflection.org&quot; a &quot;reflection.all&quot;.
+  XslTransform (v2015.10.10.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Compilazione progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\GenerateRefInfo.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:05.03
+    Last step completed in 00:00:07,2577
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
+Compilazione avviata 27/01/2016 22.33.45.
+Progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\TransformManifest.proj&quot; sul nodo 1 (destinazioni predefinite).
+TransformManifest:
+  XslTransform (v2015.10.10.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copia del file da &quot;reflection.xml&quot; a &quot;reflection.nofilenames&quot;.
+  XslTransform (v2015.10.10.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2015.10.10.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Compilazione progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\TransformManifest.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:03.84
+    Last step completed in 00:00:04,0282
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0972
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Content\Welcome.aml&#39;
+    C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Content\Welcome.aml -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\ddueXml\5f7b2618-db17-4231-acc7-3c74f86b5b07.xml
+    Parsing topic file &#39;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\ddueXml\ab711640-cc20-4d03-9e21-ed77206b45ac.xml
+    Parsing topic file &#39;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\ddueXml\b7eb8400-7421-4829-a90e-c264ae6a6348.xml
+    Last step completed in 00:00:00,1817
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    ConceptualManifest.xml
+    Last step completed in 00:00:00,0060
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\icons\Help.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\Help.png
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\icons\Help.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00,0304
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0131
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Compilazione avviata 27/01/2016 22.33.50.
+Progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; sul nodo 1 (destinazioni predefinite).
+GenerateIntermediateTOC:
+  XslTransform (v2015.10.10.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Compilazione progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:00.14
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,5257
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    conceptual.config
+    Last step completed in 00:00:00,3799
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\sandcastle.config
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\conceptual.config
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0065
+</buildStep>
+<buildStep step="BuildConceptualTopics">
+Building conceptual help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildConceptualTopics.proj]
+Compilazione avviata 27/01/2016 22.33.50.
+Progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildConceptualTopics.proj&quot; sul nodo 1 (destinazioni predefinite).
+BuildConceptualTopics:
+  BuildAssembler (v2015.10.10.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+  Processed 3 topic(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+Compilazione progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildConceptualTopics.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:06.85
+    Last step completed in 00:00:07,0329
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildReferenceTopics.proj]
+Compilazione avviata 27/01/2016 22.33.57.
+Progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj&quot; sul nodo 1 (destinazioni predefinite).
+BuildReferenceTopics:
+  BuildAssembler (v2015.10.10.0)
+  Copyright &#184; 2006-2015, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.IPForWatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.IsTransient&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.RemoteStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.WatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.AddExceptionDataForRestrictedErrorInfo(System.String,System.String,System.String,System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyDynamicMethods(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyStackTrace(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.GetStackTracesDeepCopy(System.Object@,System.Object@)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.InternalPreserveStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.InternalToString&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.PrepForRemoting&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.SetErrorCode(System.Int32)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;F:System.Exception._HResult&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;F:System.Exception._message&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.IPForWatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.IsTransient&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.RemoteStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.WatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.AddExceptionDataForRestrictedErrorInfo(System.String,System.String,System.String,System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyDynamicMethods(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyStackTrace(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.GetStackTracesDeepCopy(System.Object@,System.Object@)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.InternalPreserveStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.InternalToString&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.PrepForRemoting&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.SetErrorCode(System.Int32)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;F:System.Exception._HResult&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;F:System.Exception._message&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.AddExceptionDataForRestrictedErrorInfo(System.String,System.String,System.String,System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyDynamicMethods(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyStackTrace(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.GetStackTracesDeepCopy(System.Object@,System.Object@)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.InternalPreserveStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.InternalToString&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.PrepForRemoting&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.SetErrorCode(System.Int32)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.AddExceptionDataForRestrictedErrorInfo(System.String,System.String,System.String,System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyDynamicMethods(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyStackTrace(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.GetStackTracesDeepCopy(System.Object@,System.Object@)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.InternalPreserveStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.InternalToString&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.PrepForRemoting&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;M:System.Exception.SetErrorCode(System.Int32)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.IPForWatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.IsTransient&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.RemoteStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.WatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.IPForWatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.IsTransient&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.RemoteStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;P:System.Exception.WatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Fields.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;F:System.Exception._HResult&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Fields.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;F:System.Exception._message&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Fields.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;F:System.Exception._HResult&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Fields.T:CPP_Online_Compiler_Monitor.CompilerException] MSDN URL not found for target &#39;F:System.Exception._message&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.IPForWatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.IsTransient&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.RemoteStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.WatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.AddExceptionDataForRestrictedErrorInfo(System.String,System.String,System.String,System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyDynamicMethods(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyStackTrace(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.GetStackTracesDeepCopy(System.Object@,System.Object@)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.InternalPreserveStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.InternalToString&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.PrepForRemoting&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.SetErrorCode(System.Int32)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;F:System.Exception._HResult&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;F:System.Exception._message&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.IPForWatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.IsTransient&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.RemoteStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.WatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.AddExceptionDataForRestrictedErrorInfo(System.String,System.String,System.String,System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyDynamicMethods(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyStackTrace(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.GetStackTracesDeepCopy(System.Object@,System.Object@)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.InternalPreserveStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.InternalToString&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.PrepForRemoting&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.SetErrorCode(System.Int32)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;F:System.Exception._HResult&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;F:System.Exception._message&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.AddExceptionDataForRestrictedErrorInfo(System.String,System.String,System.String,System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyDynamicMethods(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyStackTrace(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.GetStackTracesDeepCopy(System.Object@,System.Object@)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.InternalPreserveStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.InternalToString&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.PrepForRemoting&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.SetErrorCode(System.Int32)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.AddExceptionDataForRestrictedErrorInfo(System.String,System.String,System.String,System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyDynamicMethods(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.DeepCopyStackTrace(System.Object)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.GetStackTracesDeepCopy(System.Object@,System.Object@)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.InternalPreserveStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.InternalToString&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.PrepForRemoting&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.RestoreExceptionDispatchInfo(System.Runtime.ExceptionServices.ExceptionDispatchInfo)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;M:System.Exception.SetErrorCode(System.Int32)&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.IPForWatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.IsTransient&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.RemoteStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.WatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.IPForWatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.IsTransient&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.RemoteStackTrace&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;P:System.Exception.WatsonBuckets&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Fields.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;F:System.Exception._HResult&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Fields.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;F:System.Exception._message&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Fields.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;F:System.Exception._HResult&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Fields.T:CPP_Online_Compiler_Monitor.VirusFoundException] MSDN URL not found for target &#39;F:System.Exception._message&#39;. [C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj]
+  Processed 60 topic(s)
+  120 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+  ResolveReferenceLinksComponent: New MSDN content ID cache size: 1061 entries
+Compilazione progetto &quot;C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\BuildReferenceTopics.proj&quot; (destinazioni predefinite) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:05.67
+    Last step completed in 00:00:05,9358
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2015.10.10.0
+Copyright &#184; 2006-2015, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1
+Processed 63 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Documentation.hhk
+Saving HTML Help 1 table of contents to C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Documentation.hhc
+
+Processing website files in C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website
+Processed 63 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\WebKI.xml
+Saving website table of contents to C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00,6754
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:02,3467
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 2 seconds
+  
+  65	Topics
+  
+  626	Local links
+  
+  330	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\Documentation\Help\Working\Output\HtmlHelp1\Documentation.chm, 121,393 bytes
+  
+  Compression decreased file by 481,080 bytes.
+  
+    Last step completed in 00:00:04,8970
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:00,3749
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 184 files for the website content
+    Last step completed in 00:00:00,3859
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,6238
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 27/01/2016 22.34.12.  Total time: 00:00:45,8297
+
+</buildStep>
+</shfbBuild>

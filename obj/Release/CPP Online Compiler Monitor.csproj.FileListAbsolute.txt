@@ -1,0 +1,10 @@
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\bin\Release\CPP Online Compiler Monitor.exe.config
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\bin\Release\CPP Online Compiler Monitor.exe
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\bin\Release\CPP Online Compiler Monitor.pdb
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Release\CPP Online Compiler Monitor.csprojResolveAssemblyReference.cache
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Release\CPP_Online_Compiler_Monitor.MainForm.resources
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Release\CPP_Online_Compiler_Monitor.Properties.Resources.resources
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Release\CPP Online Compiler Monitor.csproj.GenerateResource.Cache
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Release\CPP Online Compiler Monitor.exe
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\obj\Release\CPP Online Compiler Monitor.pdb
+C:\Users\Vincenzo\Documents\Visual Studio 2015\Projects\CPP Online Compiler Monitor\CPP Online Compiler Monitor\bin\Release\System.Net.Http.dll

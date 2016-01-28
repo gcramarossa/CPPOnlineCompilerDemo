@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/5f7b2618-db17-4231-acc7-3c74f86b5b07.htm" />
+  <HelpTOCNode Id="7cc18392-b742-4973-a9b2-38705b7ec6ac" Title="Version History" Url="html/ab711640-cc20-4d03-9e21-ed77206b45ac.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/b7eb8400-7421-4829-a90e-c264ae6a6348.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="d0a3ccb4-468d-4e4d-95b7-0814774dbd9d" Title="CPP_Online_Compiler_Monitor" Url="html/df94f76e-01bf-291e-f0af-c689caa884fb.htm">
+    <HelpTOCNode Id="15962227-2270-43e6-b9e4-d61ff5ae00ae" Title="AntivirusLayout Class" Url="html/abe52055-733b-2312-cfc3-9fbb4367dded.htm">
+      <HelpTOCNode Title="AntivirusLayout Constructor " Url="html/dc24cb4d-50b7-516c-9885-5520f85c2b96.htm" />
+      <HelpTOCNode Title="AntivirusLayout Properties" Url="html/a1e45ba5-5160-6726-e780-5e796c970ccc.htm" />
+      <HelpTOCNode Id="847db765-a200-4f34-9f25-e2f2bd13a936" Title="AntivirusLayout Methods" Url="html/c20518da-8e56-7a29-44ca-9d91edff6496.htm">
+        <HelpTOCNode Title="MakeFileDownloadable Method " Url="html/8e74e023-1dc4-ffd5-adba-06f631913476.htm" />
+        <HelpTOCNode Title="ScanFile Method " Url="html/e354d961-d60c-9ad7-8fdb-274058a8f72b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AntivirusLayout Fields" Url="html/9c5927ea-c1d2-3e2c-d2b6-90efcbfb6111.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f43fdc53-9aee-49b0-9095-ca850d05e01f" Title="CompilerException Class" Url="html/4f131af3-053e-fd71-6e36-77baaf7ee659.htm">
+      <HelpTOCNode Id="0c94f387-f9ab-40f8-b014-b15e12f6431e" Title="CompilerException Constructor " Url="html/f88b52ef-4a0a-cb20-6707-c58f1f996ad8.htm">
+        <HelpTOCNode Title="CompilerException Constructor " Url="html/3e6817a2-39b3-2934-282a-5cd51b8285a5.htm" />
+        <HelpTOCNode Title="CompilerException Constructor (String)" Url="html/9165f9a4-4166-550a-3c98-ba58ed815d2d.htm" />
+        <HelpTOCNode Title="CompilerException Constructor (String, Char)" Url="html/3ef8f95d-cd30-f838-3ffa-e8276af9c0a1.htm" />
+        <HelpTOCNode Title="CompilerException Constructor (String, Exception)" Url="html/f949718f-fb31-870c-52c9-70ca2f042b56.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fed6b260-578d-4943-938c-44e0e6c19c88" Title="CompilerException Properties" Url="html/65d43076-bf86-b5d2-bbba-e9c18fbee19c.htm">
+        <HelpTOCNode Title="ErrorType Property " Url="html/2b1568e0-b588-bb2a-f404-6ae35876d1ab.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CompilerException Methods" Url="html/0ecf9610-2f18-c474-09fd-a62585cd0e5d.htm" />
+      <HelpTOCNode Title="CompilerException Events" Url="html/aacd83b0-87af-210c-1f20-b09e27b53006.htm" />
+      <HelpTOCNode Id="1e48b52c-ebd0-4155-929d-a03a9a04a36e" Title="CompilerException Fields" Url="html/fea39017-bbfd-3567-100a-4d4fc45513f9.htm">
+        <HelpTOCNode Title="_errorType Field" Url="html/99c1ee6b-1e0e-5ea6-97eb-12067873c718.htm" />
+        <HelpTOCNode Title="COMPILERERROR Field" Url="html/39ba3115-a24d-5e11-c1fd-b3ec0ae89281.htm" />
+        <HelpTOCNode Title="LINKERERROR Field" Url="html/565169a2-be55-3ffe-1f12-7529bd06177c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0ed1e141-e292-456b-b12a-d9e94c8791f5" Title="CompilerLayout Class" Url="html/692bdb35-13dc-b6e5-9a1f-327299ea4173.htm">
+      <HelpTOCNode Title="CompilerLayout Constructor " Url="html/7bcd2160-a55c-b55d-2bf6-91d0c413b895.htm" />
+      <HelpTOCNode Title="CompilerLayout Properties" Url="html/6aea6d2e-6a8d-d1b9-9c8e-3f1b4bc3bb3a.htm" />
+      <HelpTOCNode Id="1001aee0-0f7a-4f83-912d-c9a94784874f" Title="CompilerLayout Methods" Url="html/0b50167a-54a7-8d21-6def-ca5a32c2d04f.htm">
+        <HelpTOCNode Title="CompileSource Method " Url="html/711d57e5-bef0-8728-2233-0adc48109301.htm" />
+        <HelpTOCNode Title="FinishLayer Method " Url="html/83ad2484-7ccc-17f4-0898-de2e2cee4d57.htm" />
+        <HelpTOCNode Title="GenerateExecutable Method " Url="html/d850adda-2831-298f-f8db-88c1ba617a36.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CompilerLayout Fields" Url="html/3c9cc640-7d7a-3de9-95c8-e55a4a1ae83a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2064d2e4-c78b-47c3-a548-3f68112118d4" Title="Layout Class" Url="html/6084c1c7-d19a-4616-5ea0-4362ab68fd45.htm">
+      <HelpTOCNode Title="Layout Constructor " Url="html/91f2e934-a340-5d9e-2ba0-43d8f8822154.htm" />
+      <HelpTOCNode Id="7b6b2baa-13cf-4325-a9d1-52f523280b84" Title="Layout Properties" Url="html/c677e1b0-79d0-0265-e72b-5cf9e4b8fc10.htm">
+        <HelpTOCNode Title="Source Property " Url="html/8ed9387e-eec2-c498-ef9e-fa61c970f7c9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b2a4c053-ec7c-4d23-868d-6d020b2ca59b" Title="Layout Methods" Url="html/6b509770-b618-9dad-5076-01b9a1726946.htm">
+        <HelpTOCNode Title="StartProcess Method " Url="html/03a9ad20-da0c-f347-0f4c-c63c486fbcb1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1387c8bf-4642-47f1-93ac-bea1b3c3af50" Title="Layout Fields" Url="html/00557d6a-494f-7b23-63f4-288222db8fa1.htm">
+        <HelpTOCNode Title="_executeProcess Field" Url="html/b3b3a0c4-1291-8e4f-ed92-e9b1d1f2a886.htm" />
+        <HelpTOCNode Title="Output Field" Url="html/2838c32b-54a0-a0d1-377f-fc10d6cb15e1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="78513321-b60d-4e73-9f61-5be6e0cad499" Title="VirusFoundException Class" Url="html/c55456d5-e7d2-1201-6c47-99b9e6d630b1.htm">
+      <HelpTOCNode Id="d4670267-f37e-4a7e-ba40-5060f11975a9" Title="VirusFoundException Constructor " Url="html/2582ae68-b8c5-d0a3-afb8-579471e266ee.htm">
+        <HelpTOCNode Title="VirusFoundException Constructor " Url="html/15126323-e027-13b9-aada-179222d8c435.htm" />
+        <HelpTOCNode Title="VirusFoundException Constructor (String)" Url="html/826570ff-a0cb-f6e8-367d-5348ff3fac8f.htm" />
+        <HelpTOCNode Title="VirusFoundException Constructor (String, Exception)" Url="html/bc3886d4-2040-c93f-13f6-3753ff1658b4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dde7988d-4a0d-4480-9017-3d03d4ad0a1d" Title="VirusFoundException Properties" Url="html/57d03e79-2efc-f6d2-b462-7a59cf5cb46f.htm">
+        <HelpTOCNode Title="VirusDetail Property " Url="html/d7bc9779-bd23-5ec9-bef9-c218a3650a32.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="VirusFoundException Methods" Url="html/232d1d30-1717-d24f-5d23-60baef62f4b4.htm" />
+      <HelpTOCNode Title="VirusFoundException Events" Url="html/7e96439d-7c2e-cd5d-2cc4-9bf1afacce31.htm" />
+      <HelpTOCNode Title="VirusFoundException Fields" Url="html/702e12f3-6b1d-584c-2901-53655417766f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="493b8da9-08b8-433f-a6a5-5e8615e0d81f" Title="WebsiteLayout Class" Url="html/4e6b29ba-3870-c4d9-eee2-5c127baf76cd.htm">
+      <HelpTOCNode Title="WebsiteLayout Constructor " Url="html/807da89e-760e-1aaf-34c4-76c2ed0c72c9.htm" />
+      <HelpTOCNode Title="WebsiteLayout Properties" Url="html/f6630841-a6c4-1c67-1eb8-7df842097812.htm" />
+      <HelpTOCNode Id="b7d85dda-c2f6-4d82-8a49-271de9da90d3" Title="WebsiteLayout Methods" Url="html/f1e78380-1748-8771-6863-fe07c8098509.htm">
+        <HelpTOCNode Title="DownloadFileData Method " Url="html/cce37d77-d75c-c89b-899b-6e65766a3130.htm" />
+        <HelpTOCNode Title="SaveMessage Method " Url="html/376a3ede-c7f2-45a6-d0c1-279ce69436d9.htm" />
+        <HelpTOCNode Title="SaveSource Method " Url="html/2422dbc6-824b-1183-0eff-657bbb95fccd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="2928653b-4799-4406-a02e-040747137490" Title="WebsiteLayout Events" Url="html/f7cac167-1dba-b838-f3f5-84a853b876b0.htm">
+        <HelpTOCNode Title="SourceDownloaded Event" Url="html/3dcb412e-f610-55ec-a976-3154cc03dabf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ba062ec1-c183-47a2-9ac9-9536e5414987" Title="WebsiteLayout Fields" Url="html/eed7fe37-c3cb-f000-5614-b7602bd1728e.htm">
+        <HelpTOCNode Title="_client Field" Url="html/73f30dd4-5408-d203-c450-be9720cee228.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

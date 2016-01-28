@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CPP Online Compiler Monitor</name>
+    </assembly>
+    <members>
+        <member name="M:CPP_Online_Compiler_Monitor.AntivirusLayout.ScanFile(System.String)">
+            <summary>
+            Scan the file
+            </summary>
+            <param name="fileName">The file name</param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.AntivirusLayout.MakeFileDownloadable">
+            <summary>
+            If there weren't viruses in the file, make the file downloadable 
+            </summary>
+            <exception cref="T:CPP_Online_Compiler_Monitor.VirusFoundException">Generated when a virus is found</exception>
+        </member>
+        <member name="F:CPP_Online_Compiler_Monitor.CompilerException.COMPILERERROR">
+            <summary>
+            Defines a compiler error
+            </summary>
+        </member>
+        <member name="F:CPP_Online_Compiler_Monitor.CompilerException.LINKERERROR">
+            <summary>
+            Defines a linker error
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.CompilerLayout.CompileSource(System.String)">
+            <summary>
+            Compile a source file and generate the object file
+            </summary>
+            <param name="fileName">The file name to copile</param>
+            <exception cref="T:System.IO.FileNotFoundException" ></exception>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.CompilerLayout.GenerateExecutable">
+            <summary>
+            Generate an executable file
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.CompilerLayout.DeleteOBJFile">
+            <summary>
+            Delete the object file
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.CompilerLayout.FinishLayer">
+            <summary>
+            Check if there were no errors and delete the source
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.Website_SourceDownloaded(System.Object,System.EventArgs)">
+            <summary>
+            Start a new Thread when a source is downloaded
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.Form1_Load(System.Object,System.EventArgs)">
+            <summary>
+            Generated when the form is loaded
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.StartCompiler">
+            <summary>
+            Start the compiler
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.UpdateInputs">
+            <summary>
+            Update all inputs
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.ChangePath(System.Windows.Forms.TextBox)">
+            <summary>
+            Change the path in the textbox
+            </summary>
+            <param name="input">The textbox to change</param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.pathClicker(System.Object,System.EventArgs)">
+            <summary>
+            Change the path into a textbox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.EICARGenerator(System.String)">
+            <summary>
+            Create a file that contains the EICAR test virus
+            </summary>
+            <param name="source">The source</param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.Form1_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Generated when the form is closed
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Generated when a button is clicked
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.UpdateWebsite(System.Object,System.EventArgs)">
+            <summary>
+            Generated when the website textbox is left
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:CPP_Online_Compiler_Monitor.MainForm.components">
+            <summary>
+            Variabile di progettazione necessaria.
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Pulire le risorse in uso.
+            </summary>
+            <param name="disposing">ha valore true se le risorse gestite devono essere eliminate, false in caso contrario.</param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.MainForm.InitializeComponent">
+            <summary>
+            Metodo necessario per il supporto della finestra di progettazione. Non modificare
+            il contenuto del metodo con l'editor di codice.
+            </summary>
+        </member>
+        <member name="T:CPP_Online_Compiler_Monitor.Layout">
+            <summary>
+            Layout class
+            </summary>
+        </member>
+        <member name="F:CPP_Online_Compiler_Monitor.Layout._executeProcess">
+            <summary>
+            Describes the process to start
+            </summary>
+        </member>
+        <member name="P:CPP_Online_Compiler_Monitor.Layout.Source">
+            <summary>
+            Get or set the name of the file
+            </summary>
+        </member>
+        <member name="F:CPP_Online_Compiler_Monitor.Layout.Output">
+            <summary>
+            Contains all compiler errors
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.Layout.#ctor">
+            <summary>
+            Layout Constructor
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.Layout.StartProcess(System.String,System.String)">
+            <summary>
+            Start a process
+            </summary>
+            <param name="fileName">the file name</param>
+            <param name="arguments">arguments</param>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.Program.Main">
+            <summary>
+            Punto di ingresso principale dell'applicazione.
+            </summary>
+        </member>
+        <member name="T:CPP_Online_Compiler_Monitor.WebsiteLayout">
+            <summary>
+            Website handler
+            </summary>
+        </member>
+        <member name="F:CPP_Online_Compiler_Monitor.WebsiteLayout._client">
+            <summary>
+            Object that permits to connect to a webserver
+            </summary>
+        </member>
+        <member name="F:CPP_Online_Compiler_Monitor.WebsiteLayout.sourceDownloaded">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:CPP_Online_Compiler_Monitor.WebsiteLayout.SourceDownloaded">
+            <summary>
+            Generated when the source is downloaded
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.WebsiteLayout.DownloadFileData(System.String)">
+            <summary>
+            Download data from an API
+            </summary>
+            <param name="APIName">API name</param>
+            <returns>a string containing the downloaded data</returns>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.WebsiteLayout.SaveSource">
+            <summary>
+            Save a source file 
+            </summary>
+        </member>
+        <member name="M:CPP_Online_Compiler_Monitor.WebsiteLayout.SaveMessage(System.String,System.Char,System.String)">
+            <summary>
+            Send a message to the website
+            </summary>
+            <param name="message">The message to show</param>
+            <param name="errorType">the error type. It can be 'i', 'v', 'c' or 'l'</param>
+            <param name="source">the source id</param>
+        </member>
+        <member name="T:CPP_Online_Compiler_Monitor.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CPP_Online_Compiler_Monitor.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CPP_Online_Compiler_Monitor.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

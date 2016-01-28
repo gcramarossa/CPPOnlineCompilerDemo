@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AntivirusLayout class">
+    <HelpKINode Title="AntivirusLayout Class" Url="html/abe52055-733b-2312-cfc3-9fbb4367dded.htm" />
+    <HelpKINode Title="about AntivirusLayout class" Url="html/abe52055-733b-2312-cfc3-9fbb4367dded.htm" />
+    <HelpKINode Title="constructor" Url="html/dc24cb4d-50b7-516c-9885-5520f85c2b96.htm" />
+    <HelpKINode Title="fields" Url="html/9c5927ea-c1d2-3e2c-d2b6-90efcbfb6111.htm" />
+    <HelpKINode Title="methods" Url="html/c20518da-8e56-7a29-44ca-9d91edff6496.htm" />
+    <HelpKINode Title="properties" Url="html/a1e45ba5-5160-6726-e780-5e796c970ccc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AntivirusLayout.AntivirusLayout constructor" Url="html/dc24cb4d-50b7-516c-9885-5520f85c2b96.htm" />
+  <HelpKINode Title="AntivirusLayout.MakeFileDownloadable method" Url="html/8e74e023-1dc4-ffd5-adba-06f631913476.htm" />
+  <HelpKINode Title="AntivirusLayout.ScanFile method" Url="html/e354d961-d60c-9ad7-8fdb-274058a8f72b.htm" />
+  <HelpKINode Title="COMPILERERROR field" Url="html/39ba3115-a24d-5e11-c1fd-b3ec0ae89281.htm" />
+  <HelpKINode Title="CompilerException class">
+    <HelpKINode Title="CompilerException Class" Url="html/4f131af3-053e-fd71-6e36-77baaf7ee659.htm" />
+    <HelpKINode Title="about CompilerException class" Url="html/4f131af3-053e-fd71-6e36-77baaf7ee659.htm" />
+    <HelpKINode Title="constructor" Url="html/f88b52ef-4a0a-cb20-6707-c58f1f996ad8.htm" />
+    <HelpKINode Title="events" Url="html/aacd83b0-87af-210c-1f20-b09e27b53006.htm" />
+    <HelpKINode Title="fields" Url="html/fea39017-bbfd-3567-100a-4d4fc45513f9.htm" />
+    <HelpKINode Title="methods" Url="html/0ecf9610-2f18-c474-09fd-a62585cd0e5d.htm" />
+    <HelpKINode Title="properties" Url="html/65d43076-bf86-b5d2-bbba-e9c18fbee19c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompilerException.COMPILERERROR field" Url="html/39ba3115-a24d-5e11-c1fd-b3ec0ae89281.htm" />
+  <HelpKINode Title="CompilerException.CompilerException constructor" Url="html/f88b52ef-4a0a-cb20-6707-c58f1f996ad8.htm" />
+  <HelpKINode Title="CompilerException.ErrorType property" Url="html/2b1568e0-b588-bb2a-f404-6ae35876d1ab.htm" />
+  <HelpKINode Title="CompilerException.LINKERERROR field" Url="html/565169a2-be55-3ffe-1f12-7529bd06177c.htm" />
+  <HelpKINode Title="CompilerException._errorType field" Url="html/99c1ee6b-1e0e-5ea6-97eb-12067873c718.htm" />
+  <HelpKINode Title="CompilerLayout class">
+    <HelpKINode Title="CompilerLayout Class" Url="html/692bdb35-13dc-b6e5-9a1f-327299ea4173.htm" />
+    <HelpKINode Title="about CompilerLayout class" Url="html/692bdb35-13dc-b6e5-9a1f-327299ea4173.htm" />
+    <HelpKINode Title="constructor" Url="html/7bcd2160-a55c-b55d-2bf6-91d0c413b895.htm" />
+    <HelpKINode Title="fields" Url="html/3c9cc640-7d7a-3de9-95c8-e55a4a1ae83a.htm" />
+    <HelpKINode Title="methods" Url="html/0b50167a-54a7-8d21-6def-ca5a32c2d04f.htm" />
+    <HelpKINode Title="properties" Url="html/6aea6d2e-6a8d-d1b9-9c8e-3f1b4bc3bb3a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CompilerLayout.CompilerLayout constructor" Url="html/7bcd2160-a55c-b55d-2bf6-91d0c413b895.htm" />
+  <HelpKINode Title="CompilerLayout.CompileSource method" Url="html/711d57e5-bef0-8728-2233-0adc48109301.htm" />
+  <HelpKINode Title="CompilerLayout.FinishLayer method" Url="html/83ad2484-7ccc-17f4-0898-de2e2cee4d57.htm" />
+  <HelpKINode Title="CompilerLayout.GenerateExecutable method" Url="html/d850adda-2831-298f-f8db-88c1ba617a36.htm" />
+  <HelpKINode Title="CompileSource method" Url="html/711d57e5-bef0-8728-2233-0adc48109301.htm" />
+  <HelpKINode Title="CPP_Online_Compiler_Monitor namespace" Url="html/df94f76e-01bf-291e-f0af-c689caa884fb.htm" />
+  <HelpKINode Title="CPP_Online_Compiler_Monitor.AntivirusLayout class" Url="html/abe52055-733b-2312-cfc3-9fbb4367dded.htm" />
+  <HelpKINode Title="CPP_Online_Compiler_Monitor.CompilerException class" Url="html/4f131af3-053e-fd71-6e36-77baaf7ee659.htm" />
+  <HelpKINode Title="CPP_Online_Compiler_Monitor.CompilerLayout class" Url="html/692bdb35-13dc-b6e5-9a1f-327299ea4173.htm" />
+  <HelpKINode Title="CPP_Online_Compiler_Monitor.Layout class" Url="html/6084c1c7-d19a-4616-5ea0-4362ab68fd45.htm" />
+  <HelpKINode Title="CPP_Online_Compiler_Monitor.VirusFoundException class" Url="html/c55456d5-e7d2-1201-6c47-99b9e6d630b1.htm" />
+  <HelpKINode Title="CPP_Online_Compiler_Monitor.WebsiteLayout class" Url="html/4e6b29ba-3870-c4d9-eee2-5c127baf76cd.htm" />
+  <HelpKINode Title="DownloadFileData method" Url="html/cce37d77-d75c-c89b-899b-6e65766a3130.htm" />
+  <HelpKINode Title="ErrorType property" Url="html/2b1568e0-b588-bb2a-f404-6ae35876d1ab.htm" />
+  <HelpKINode Title="FinishLayer method" Url="html/83ad2484-7ccc-17f4-0898-de2e2cee4d57.htm" />
+  <HelpKINode Title="GenerateExecutable method" Url="html/d850adda-2831-298f-f8db-88c1ba617a36.htm" />
+  <HelpKINode Title="Layout class">
+    <HelpKINode Title="Layout Class" Url="html/6084c1c7-d19a-4616-5ea0-4362ab68fd45.htm" />
+    <HelpKINode Title="about Layout class" Url="html/6084c1c7-d19a-4616-5ea0-4362ab68fd45.htm" />
+    <HelpKINode Title="constructor" Url="html/91f2e934-a340-5d9e-2ba0-43d8f8822154.htm" />
+    <HelpKINode Title="fields" Url="html/00557d6a-494f-7b23-63f4-288222db8fa1.htm" />
+    <HelpKINode Title="methods" Url="html/6b509770-b618-9dad-5076-01b9a1726946.htm" />
+    <HelpKINode Title="properties" Url="html/c677e1b0-79d0-0265-e72b-5cf9e4b8fc10.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Layout.Layout constructor" Url="html/91f2e934-a340-5d9e-2ba0-43d8f8822154.htm" />
+  <HelpKINode Title="Layout.Output field" Url="html/2838c32b-54a0-a0d1-377f-fc10d6cb15e1.htm" />
+  <HelpKINode Title="Layout.Source property" Url="html/8ed9387e-eec2-c498-ef9e-fa61c970f7c9.htm" />
+  <HelpKINode Title="Layout.StartProcess method" Url="html/03a9ad20-da0c-f347-0f4c-c63c486fbcb1.htm" />
+  <HelpKINode Title="Layout._executeProcess field" Url="html/b3b3a0c4-1291-8e4f-ed92-e9b1d1f2a886.htm" />
+  <HelpKINode Title="LINKERERROR field" Url="html/565169a2-be55-3ffe-1f12-7529bd06177c.htm" />
+  <HelpKINode Title="MakeFileDownloadable method" Url="html/8e74e023-1dc4-ffd5-adba-06f631913476.htm" />
+  <HelpKINode Title="Output field" Url="html/2838c32b-54a0-a0d1-377f-fc10d6cb15e1.htm" />
+  <HelpKINode Title="SaveMessage method" Url="html/376a3ede-c7f2-45a6-d0c1-279ce69436d9.htm" />
+  <HelpKINode Title="SaveSource method" Url="html/2422dbc6-824b-1183-0eff-657bbb95fccd.htm" />
+  <HelpKINode Title="ScanFile method" Url="html/e354d961-d60c-9ad7-8fdb-274058a8f72b.htm" />
+  <HelpKINode Title="Source property" Url="html/8ed9387e-eec2-c498-ef9e-fa61c970f7c9.htm" />
+  <HelpKINode Title="SourceDownloaded event" Url="html/3dcb412e-f610-55ec-a976-3154cc03dabf.htm" />
+  <HelpKINode Title="StartProcess method" Url="html/03a9ad20-da0c-f347-0f4c-c63c486fbcb1.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/b7eb8400-7421-4829-a90e-c264ae6a6348.htm" />
+    <HelpKINode Title="history" Url="html/ab711640-cc20-4d03-9e21-ed77206b45ac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VirusDetail property" Url="html/d7bc9779-bd23-5ec9-bef9-c218a3650a32.htm" />
+  <HelpKINode Title="VirusFoundException class">
+    <HelpKINode Title="VirusFoundException Class" Url="html/c55456d5-e7d2-1201-6c47-99b9e6d630b1.htm" />
+    <HelpKINode Title="about VirusFoundException class" Url="html/c55456d5-e7d2-1201-6c47-99b9e6d630b1.htm" />
+    <HelpKINode Title="constructor" Url="html/2582ae68-b8c5-d0a3-afb8-579471e266ee.htm" />
+    <HelpKINode Title="events" Url="html/7e96439d-7c2e-cd5d-2cc4-9bf1afacce31.htm" />
+    <HelpKINode Title="fields" Url="html/702e12f3-6b1d-584c-2901-53655417766f.htm" />
+    <HelpKINode Title="methods" Url="html/232d1d30-1717-d24f-5d23-60baef62f4b4.htm" />
+    <HelpKINode Title="properties" Url="html/57d03e79-2efc-f6d2-b462-7a59cf5cb46f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VirusFoundException.VirusDetail property" Url="html/d7bc9779-bd23-5ec9-bef9-c218a3650a32.htm" />
+  <HelpKINode Title="VirusFoundException.VirusFoundException constructor" Url="html/2582ae68-b8c5-d0a3-afb8-579471e266ee.htm" />
+  <HelpKINode Title="WebsiteLayout class">
+    <HelpKINode Title="WebsiteLayout Class" Url="html/4e6b29ba-3870-c4d9-eee2-5c127baf76cd.htm" />
+    <HelpKINode Title="about WebsiteLayout class" Url="html/4e6b29ba-3870-c4d9-eee2-5c127baf76cd.htm" />
+    <HelpKINode Title="constructor" Url="html/807da89e-760e-1aaf-34c4-76c2ed0c72c9.htm" />
+    <HelpKINode Title="events" Url="html/f7cac167-1dba-b838-f3f5-84a853b876b0.htm" />
+    <HelpKINode Title="fields" Url="html/eed7fe37-c3cb-f000-5614-b7602bd1728e.htm" />
+    <HelpKINode Title="methods" Url="html/f1e78380-1748-8771-6863-fe07c8098509.htm" />
+    <HelpKINode Title="properties" Url="html/f6630841-a6c4-1c67-1eb8-7df842097812.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebsiteLayout.DownloadFileData method" Url="html/cce37d77-d75c-c89b-899b-6e65766a3130.htm" />
+  <HelpKINode Title="WebsiteLayout.SaveMessage method" Url="html/376a3ede-c7f2-45a6-d0c1-279ce69436d9.htm" />
+  <HelpKINode Title="WebsiteLayout.SaveSource method" Url="html/2422dbc6-824b-1183-0eff-657bbb95fccd.htm" />
+  <HelpKINode Title="WebsiteLayout.SourceDownloaded event" Url="html/3dcb412e-f610-55ec-a976-3154cc03dabf.htm" />
+  <HelpKINode Title="WebsiteLayout.WebsiteLayout constructor" Url="html/807da89e-760e-1aaf-34c4-76c2ed0c72c9.htm" />
+  <HelpKINode Title="WebsiteLayout._client field" Url="html/73f30dd4-5408-d203-c450-be9720cee228.htm" />
+  <HelpKINode Title="Welcome" Url="html/5f7b2618-db17-4231-acc7-3c74f86b5b07.htm" />
+  <HelpKINode Title="_client field" Url="html/73f30dd4-5408-d203-c450-be9720cee228.htm" />
+  <HelpKINode Title="_errorType field" Url="html/99c1ee6b-1e0e-5ea6-97eb-12067873c718.htm" />
+  <HelpKINode Title="_executeProcess field" Url="html/b3b3a0c4-1291-8e4f-ed92-e9b1d1f2a886.htm" />
+</HelpKI>
